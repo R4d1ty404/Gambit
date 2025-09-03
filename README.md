@@ -33,7 +33,7 @@ This tool recursively crawls a target website, renders JavaScript, and identifie
 Here is the basic command structure:
 
 ```bash
-python3 gambit.py https://example.com -d 5 -o output.txt -w 5 -f login generic --html siwardi.html
+python3 gambit.py https://example.com -d 5 -o output.txt -w 5 -f login generic --html output.html
 ```
 
 Help command:
