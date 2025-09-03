@@ -17,7 +17,7 @@ This tool recursively crawls a target website, renders JavaScript, and identifie
 
 1.  Clone the repository to your local machine:
     ```bash
-    git clone [https://github.com/R4d1ty404/Gambit.git](https://github.com/R4d1ty404/Gambit.git)
+    git clone https://github.com/R4d1ty404/Gambit.git
     ```
 2.  Navigate into the project directory:
     ```bash
@@ -33,4 +33,9 @@ This tool recursively crawls a target website, renders JavaScript, and identifie
 Here is the basic command structure:
 
 ```bash
-python3 gambit.py <URL> [OPTIONS]
+python3 gambit.py https://example.com -d 5 -o output.txt -w 5 -f login generic --html siwardi.html
+```
+
+Help command:
+```bash
+python3 gambit.py -h
