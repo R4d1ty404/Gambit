@@ -1,4 +1,4 @@
-selenium
-webdriver-manager
+playwright
+aiohttp
 beautifulsoup4
 colorama
