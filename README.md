@@ -22,7 +22,7 @@ This tool recursively crawls a target website, renders JavaScript using Playwrig
 
 1.  Clone the repository to your local machine:
     ```bash
-    git clone [https://github.com/R4d1ty404/Gambit.git](https://github.com/R4d1ty404/Gambit.git)
+    git clone https://github.com/R4d1ty404/Gambit.git
     ```
 2.  Navigate into the project directory:
     ```bash
@@ -48,22 +48,22 @@ python3 gambit.py <URL> [OPTIONS]
 
 -   **Quick scan of a single page:**
     ```bash
-    python3 gambit.py [https://example.com](https://example.com) -d 0
+    python3 gambit.py https://example.com -d 0
     ```
 
 -   **In-depth scan, saving an HTML report and session progress:**
     ```bash
-    python3 gambit.py [https://large-website.com](https://large-website.com) -d 3 -c 50 --html report.html --session large_scan.pkl
+    python3 gambit.py https://example.com -d 3 -c 50 --html report.html --session large_scan.pkl
     ```
 
 -   **Authenticated scan using a session cookie:**
     ```bash
-    python3 gambit.py [https://dashboard.example.com](https://dashboard.example.com) --cookie "sessionid=abc123xyz"
+    python3 gambit.py https://example.com --cookie "sessionid=abc123xyz"
     ```
 
 -   **Find all login pages and save them to a text file:**
     ```bash
-    python3 gambit.py [https://example.com](https://example.com) -d 2 -o login_pages.txt -f login
+    python3 gambit.py https://example.com -d 2 -o login_pages.txt -f login
     ```
 
 ### Argument Reference
