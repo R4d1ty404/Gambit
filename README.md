@@ -4,6 +4,8 @@ A high-performance, asynchronous, JS-aware Python crawler for discovering and cl
 
 This tool recursively crawls a target website, renders JavaScript using Playwright, and identifies interesting links, subdomains, and outdated JavaScript libraries from a wide range of sources.
 
+![Gambit Scan Report](./assets/gambit-output.png)
+
 ## Features
 
 -   **High-Concurrency Engine**: Uses `asyncio` and `Playwright` for massively parallel and fast scanning.
